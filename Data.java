@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Data {
 
 	private int lines;  //Lines of text; starting at 0
-	private int chars;
+	private int chars;  // XD memes
 	public int bits;
 	public String fileName;
 	private String contents;
