@@ -7,6 +7,10 @@ public class FreqNode {
 		Char = inC;
 		freq = 0;
 	}
+	public FreqNode(char inC, int frq){
+		Char = inC;
+		freq = frq;
+	}
 	public void add(){
 		freq++;
 	}
