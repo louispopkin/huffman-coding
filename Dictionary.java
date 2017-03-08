@@ -32,4 +32,7 @@ public class Dictionary {
 			
 			return total;
 		}
+		public int getLength(){
+			return dict.length;
+		}
 }
