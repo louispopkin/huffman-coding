@@ -19,6 +19,15 @@ public class ReadDictionary {
 		
 	}
 	
-	
+	public FreqNode getNode(String line){
+		char ch = line.charAt(0);
+		line = line.substring(1);
+		line = line.substring(1);
+		int fr = Integer.valueOf(line);
+		FreqNode dank = new FreqNode(ch,fr);
+		return dank;
+		
+	}
+
 
 }
