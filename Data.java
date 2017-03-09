@@ -1,13 +1,15 @@
+package afterResearch;
+
 import java.io.File;
 import java.util.Scanner;
 
 public class Data {
 
-	private int lines;  //Lines of text; starting at 0
-	private int chars;
+	public int lines;  //Lines of text; starting at 0
+	public int chars;
 	public int bits;
 	public String fileName;
-	private String contents;
+	public String contents;
 
 	public Data(File file) throws Exception {
 		Scan(file);
@@ -43,8 +45,8 @@ public class Data {
 		bits = len*8;
 	}
 	
-	public void getInfo(){
-		System.out.println("INFO: "+fileName+" has "+lines+" lines, "+chars+" characters and "+bits+" bits.");
+	public String getInfo(){
+		return "INFO: "+fileName+" has "+lines+" lines, "+chars+" characters and "+bits+" bits.";
 	}
 
 	
